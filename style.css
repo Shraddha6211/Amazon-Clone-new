@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box2 */
+.deli{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.where{
+    color: white;
+    font-size: 1 rem;
+    margin-left: 3px;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.nav_search{
+    height: 45px;
+display: flex;
+background-color: pink;
+width: 620px;
+justify-content: space-evenly;
+border-radius: 4px;
+margin-left: 20px;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_input{
+    width: 100%;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;/*horizontally center*/
+    align-items: center; /*vertically center*/
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav_search:hover{
+    border: 2px solid #febd68;
+}
+/* box 4 */
+.select_language{
+    height: 45px;
+    border-radius: 4px;
+    background-color: #0f1111;
+    color: white;
+}
+/* box 5 and 6. Works for them both.<3 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 7 */
+.nav_cart{
+    height: 45px;
+    display: flex;
+      align-items: center;
+}
+.cart_icon{
+    font-size: 1.5rem;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #0f1111d5;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.panelitem{
+    font-size: 14px;
+    font-weight: 700;
+}
+.panel-ops{
+    width: 70%;
+}
+/* Hero Section */
+.hero-section{
+    height: 600px;
+    background-size: cover;
+    background-image: url("heroimage.jpg");
+}
